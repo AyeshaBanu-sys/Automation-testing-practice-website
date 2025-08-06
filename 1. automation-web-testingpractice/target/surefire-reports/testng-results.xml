@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-06T15:48:50 IST" name="Surefire suite" finished-at="2025-03-06T15:49:53 IST" duration-ms="62627">
+    <groups>
+      <group name="regression">
+        <method signature="CheckBoxTest.VerifyCheckBox()[pri:1, instance:com.automation.test.checkbox.radiobutton.CheckBoxTest@4196c360]" name="VerifyCheckBox" class="com.automation.test.checkbox.radiobutton.CheckBoxTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CheckBoxTest.VerifyCheckBox()[pri:1, instance:com.automation.test.checkbox.radiobutton.CheckBoxTest@4196c360]" name="VerifyCheckBox" class="com.automation.test.checkbox.radiobutton.CheckBoxTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-06T15:48:50 IST" name="Surefire test" finished-at="2025-03-06T15:49:53 IST" duration-ms="62627">
+      <class name="com.automation.test.dropdowns.ColorsDropdownTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.dropdowns.ColorsDropdownTest@2d6c53fc]" started-at="2025-03-06T15:49:30 IST" name="initWebsite" finished-at="2025-03-06T15:49:36 IST" duration-ms="6125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyCountryDropdown()[pri:1, instance:com.automation.test.dropdowns.ColorsDropdownTest@2d6c53fc]" started-at="2025-03-06T15:49:36 IST" name="VerifyCountryDropdown" finished-at="2025-03-06T15:49:38 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCountryDropdown -->
+      </class> <!-- com.automation.test.dropdowns.ColorsDropdownTest -->
+      <class name="com.automation.test.checkbox.radiobutton.SelectRadioButtonTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.checkbox.radiobutton.SelectRadioButtonTest@68dc098b]" started-at="2025-03-06T15:49:00 IST" name="initWebsite" finished-at="2025-03-06T15:49:03 IST" duration-ms="2568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyRadiobutton()[pri:0, instance:com.automation.test.checkbox.radiobutton.SelectRadioButtonTest@68dc098b]" started-at="2025-03-06T15:49:03 IST" name="VerifyRadiobutton" finished-at="2025-03-06T15:49:10 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRadiobutton -->
+      </class> <!-- com.automation.test.checkbox.radiobutton.SelectRadioButtonTest -->
+      <class name="com.automation.test.checkbox.radiobutton.CheckBoxTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.checkbox.radiobutton.CheckBoxTest@4196c360]" started-at="2025-03-06T15:48:50 IST" name="initWebsite" finished-at="2025-03-06T15:48:58 IST" duration-ms="7781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyCheckBox()[pri:1, instance:com.automation.test.checkbox.radiobutton.CheckBoxTest@4196c360]" started-at="2025-03-06T15:48:58 IST" name="VerifyCheckBox" finished-at="2025-03-06T15:49:00 IST" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckBox -->
+      </class> <!-- com.automation.test.checkbox.radiobutton.CheckBoxTest -->
+      <class name="com.automation.test.fields.EnterFieldsTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.fields.EnterFieldsTest@7fbdb894]" started-at="2025-03-06T15:49:46 IST" name="initWebsite" finished-at="2025-03-06T15:49:53 IST" duration-ms="6151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyGUIElements()[pri:0, instance:com.automation.test.fields.EnterFieldsTest@7fbdb894]" started-at="2025-03-06T15:49:53 IST" name="VerifyGUIElements" finished-at="2025-03-06T15:49:53 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGUIElements -->
+      </class> <!-- com.automation.test.fields.EnterFieldsTest -->
+      <class name="com.automation.test.dropdowns.CountryDropdownTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.dropdowns.CountryDropdownTest@25f4878b]" started-at="2025-03-06T15:49:38 IST" name="initWebsite" finished-at="2025-03-06T15:49:44 IST" duration-ms="5980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyCountryDropdown()[pri:1, instance:com.automation.test.dropdowns.CountryDropdownTest@25f4878b]" started-at="2025-03-06T15:49:44 IST" name="VerifyCountryDropdown" finished-at="2025-03-06T15:49:46 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCountryDropdown -->
+      </class> <!-- com.automation.test.dropdowns.CountryDropdownTest -->
+      <class name="com.automation.test.dropdowns.AnimalsDropdownTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.dropdowns.AnimalsDropdownTest@d278d2b]" started-at="2025-03-06T15:49:22 IST" name="initWebsite" finished-at="2025-03-06T15:49:28 IST" duration-ms="5892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyAnimalsDropdown()[pri:1, instance:com.automation.test.dropdowns.AnimalsDropdownTest@d278d2b]" started-at="2025-03-06T15:49:28 IST" name="VerifyAnimalsDropdown" finished-at="2025-03-06T15:49:30 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAnimalsDropdown -->
+      </class> <!-- com.automation.test.dropdowns.AnimalsDropdownTest -->
+      <class name="com.automation.test.datepickers.DatepickerTest">
+        <test-method is-config="true" signature="initWebsite(java.lang.String)[pri:0, instance:com.automation.test.datepickers.DatepickerTest@38ba6ce3]" started-at="2025-03-06T15:49:10 IST" name="initWebsite" finished-at="2025-03-06T15:49:15 IST" duration-ms="5341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebsite -->
+        <test-method signature="VerifyDatePicker()[pri:1, instance:com.automation.test.datepickers.DatepickerTest@38ba6ce3]" started-at="2025-03-06T15:49:15 IST" name="VerifyDatePicker" finished-at="2025-03-06T15:49:22 IST" duration-ms="6953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDatePicker -->
+      </class> <!-- com.automation.test.datepickers.DatepickerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

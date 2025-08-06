@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mySuite]" guice-stage="DEVELOPMENT">
+  <parameter name="siteURL" value="https://testautomationpractice.blogspot.com/"/>
+  <listeners>
+    <listener class-name="com.automation.test.reports.ExtentReportsManager"/>
+  </listeners>
+  <test thread-count="5" name=" Chrome browser Select Checkbox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.test.checkbox.radiobutton.CheckBoxTest">
+        <methods>
+          <include name="initWebsite"/>
+          <include name="VerifyCheckBox"/>
+        </methods>
+      </class> <!-- com.automation.test.checkbox.radiobutton.CheckBoxTest -->
+    </classes>
+  </test> <!--  Chrome browser Select Checkbox(failed) -->
+</suite> <!-- Failed suite [mySuite] -->
